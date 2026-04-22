@@ -55,7 +55,7 @@ Convert the recursive code into DP using these steps.
 using namespace std;
 using namespace std::chrono;
 
-int dp[1000]; // Step 1: declare dp array (size can be 1000 to avoid complicacy.)
+// Step 1: declare dp array (size can be 1000 to avoid complicacy.)
 
 int fib(int n){
     if(n==0 || n==1) return n;
